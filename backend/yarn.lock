@@ -2264,6 +2264,26 @@ mkdirp@^0.5.1:
   dependencies:
     minimist "^1.2.5"
 
+mongo@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/mongo/-/mongo-0.1.0.tgz#c8af0f8df98d4894b772b37342987c3becf3718c"
+  integrity sha1-yK8PjfmNSJS3crNzQph8O+zzcYw=
+  dependencies:
+    mongodb "*"
+
+mongodb@*:
+  version "3.6.9"
+  resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.6.9.tgz#4889cf529724267d393a18275d6cf19d71905b1d"
+  integrity sha512-1nSCKgSunzn/CXwgOWgbPHUWOO5OfERcuOWISmqd610jn0s8BU9K4879iJVabqgpPPbA6hO7rG48eq+fGED3Mg==
+  dependencies:
+    bl "^2.2.1"
+    bson "^1.1.4"
+    denque "^1.4.1"
+    optional-require "^1.0.3"
+    safe-buffer "^5.1.2"
+  optionalDependencies:
+    saslprep "^1.0.0"
+
 mongodb@3.6.8:
   version "3.6.8"
   resolved "https://registry.yarnpkg.com/mongodb/-/mongodb-3.6.8.tgz#3e2632af81915b3ff99b7681121ca0895e8ed407"
