@@ -11,7 +11,7 @@ const PORT = 3000;
 
 mongoose.Promise = global.Promise
 
-mongoose.connect('mongodb://localhost/MERNDB', {
+mongoose.connect(`mongodb://localhost:${PORT}/`, {
     useNewUrlParser: true,
     useUnifiedTopology: true
 });
